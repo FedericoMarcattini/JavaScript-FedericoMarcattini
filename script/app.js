@@ -16,7 +16,7 @@ function empezarCompra() {
     let descuento
     let volverAEmpezar = 1
 
-    while (volverAEmpezar == 1) {
+    while (volverAEmpezar == 1 || volverAEmpezar == "Si" || volverAEmpezar == "si") {
 
         tipo = prompt("Ingrese el tipo de articulo que desea comprar: \n\n 1- Indumentaria \n 2- Electrodomesticos \n 3- Televisores \n 4- Celulares \n 5- Muebles ")
         precio = Number(prompt("Ingrese el precio del articulo que desea comprar: "))
